@@ -1,0 +1,269 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  //border: 1px solid blue;
+}
+
+h1 {
+  font-size: 3em;
+  color: #f9faf8;
+  font-weight: 600;
+  line-height: 1em;
+  margin: 0px;
+}
+
+h2 {
+  font-size: 1.5em;
+  color: #1f2937;
+  font-weight: 600;
+  line-height: 1em;
+  margin: 0px;
+}
+
+.logo {
+  font-size: 1.3em;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  min-height: -webkit-fill-available;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.inner-container {
+  display: flex;
+  align-items: center;
+  //align-content: center;
+  //flex-direction: column;
+  height: 100%;
+  width: 1000px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 60px;
+  background-color: #1f2937;
+  color: #ffffff;
+}
+
+.header-links {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li:hover,
+li:active {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.footer {
+  width: 100%;
+  height: 60px;
+  background-color: #1f2937;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer p {
+  font-size: 0.9em;
+}
+
+.hero-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 60px 0;
+  background-color: #1f2937;
+  color: #ffffff;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  margin: 0 30px 0 0;
+}
+
+.hero-text p {
+  font-size: 1.15em;
+  color: #e5e7eb;
+  font-weight: 300;
+}
+
+.hero-img-placeholder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 250px;
+  width: 50%;
+  background-color: #5a606a;
+  margin: 0 0 0 20px;
+}
+
+.hero-img-placeholder p {
+  font-size: 0.9em;
+  color: #e5e7eb;
+  font-weight: 300;
+}
+
+.img-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img-placeholder {
+  border: 3px solid #3882f6;
+  border-radius: 25px;
+  width: 150px;
+  height: 150px;
+}
+
+.subtext {
+  width: 150px;
+  text-align: center;
+  color: rgb(101, 102, 102);
+  padding: 10px 0 0 0;
+}
+
+.button {
+  background-color: #3882f6;
+  border-radius: 5px;
+  text-align: center;
+  width: 120px;
+  padding: 8px;
+  font-weight: 600;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:active {
+  background-color: #306cce;
+}
+
+.wb {
+  border: 2px solid #ffffff;
+}
+
+.info-container {
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px 100px;
+}
+
+.info-title {
+  text-align: center;
+  margin: 0 0 30px 0;
+}
+
+.info-inner-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.grid-50 {
+  width: 50%;
+}
+
+.grid-70 {
+  width: 70%;
+}
+
+.grid-30 {
+  width: 30%;
+}
+
+.quote-container {
+  background-color: #e5e7eb;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.quote {
+  width: 1000px;
+  font-size: 1.5em;
+  line-height: 1.3em;
+  font-weight: 200;
+  font-style: italic;
+  padding: 100px 200px 10px;
+}
+
+.signature {
+  width: 1000px;
+  text-align: right;
+  padding: 0 200px 70px;
+}
+
+.action-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 80px;
+}
+
+.action-box {
+  width: 1000px;
+  background-color: #3882f6;
+  color: #ffffff;
+  align-items: center;
+  display: flex;
+  border-radius: 5px;
+  padding: 30px 100px;
+  height: 120px;
+  justify-content: space-between;
+}
+
+.action-header {
+  font-size: 1.2em;
+  font-weight: 600;
+  margin: 0px;
+  padding: 0 0 8px 0;
+}
+
+.action-text {
+  margin: 0px;
+  padding: 0px;
+}
